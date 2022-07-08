@@ -1,0 +1,37 @@
+body{
+  background-color: bisque;
+}
+.container {
+  margin: 5rem;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-bottom: 4rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 5px brown;
+
+}
+
+.input{
+  padding-top: 2rem;
+}
+
+input,
+select {
+  display: flex;
+  border: 3px solid;
+  border-radius: 4px;
+  background-color: antiquewhite;
+  height: 1.5rem;
+  width: 300px;
+  margin: 8px 8px 8px 0;
+}
+button{
+  width: 5rem;
+  position: relative;
+  left: 7rem;
+  top: 1rem
+}
